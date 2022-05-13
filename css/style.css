@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Square+Peg&family=Water+Brush&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Font style*/
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile {
+    height: 120px;
+    margin-left: 10px;
+}
+
+.logo {
+    height: 80px;
+}
+
+
+
+/*Title style*/
+header h1 {
+    font-size: 100px;
+    color: white;
+    margin-left: 260px;
+}
+
+
+/* News on the main page*/
+
+
+.news {
+    padding: 20px 50px 50px 50px;
+    text-align:center;
+    background-color: white;
+    font-size: 15px;
+}
+
+.updatesTitle{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FF0000;
+    color: black;
+   
+}
+
+.news ul p{
+    margin: 20px;
+}
+
+
+/* estilos del menú*/
+
+
+nav {
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+nav ul{
+    flex-wrap: wrap;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 0px;
+    color: white;
+    font-size: 50px;
+    background-color: black;
+    
+}
+
+
+nav ul li {
+    list-style-type: none;
+    border: 10px solid black;
+  
+    justify-content: space-around;
+    
+    
+}
+
+.menuUno {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menuUno li a:hover {
+    color: #950101;
+    font-weight: bolder;
+}
+
+
+footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+
+/* ESTILOS DE ESCALATION TOOL */
+/* ESTILOS DE ESCALATION TOOL */
+/* ESTILOS DE ESCALATION TOOL */
+/* ESTILOS DE ESCALATION TOOL */
+
+.tituloEscalationsTool{
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezadoET{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profileET{
+    height: 120px;
+    margin-left: 10px;
+}
+
+.logoET {
+    height: 80px;
+    margin-left: 200px;
+}
+
+.navET{
+    height: 100px;
+}
+
+.menuET{
+    display: flex;
+}
+
+.menuET li a{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menuET li a:hover {
+    color: #950101;
+    font-weight: bolder;
+}
+
+.casosET li:hover {
+    color: #950101;
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+
+}
+
+
+.casosET li{
+    list-style: none;
+    margin: 10px;
+    
+}
+
+.casosET{
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/* ESTILOS DE PROCESSES */
+/* ESTILOS DE PROCESSES */
+/* ESTILOS DE PROCESSES */
+/* ESTILOS DE PROCESSES */
+
+.tituloPro{
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezadoPro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profilePro{
+    height: 120px;
+    margin-left: 10px;
+}
+
+.logoPro {
+    height: 80px;
+    margin-left: 200px;
+}
+
+.navPro{
+    display: flex;
+    
+}
+
+.menuPro{
+    height: 100px;
+    
+}
+
+.menuPro li a{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.casosPro li:hover {
+    color: #950101;
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+
+}
+
+
+.casosPro li{
+    list-style: none;
+    margin: 10px;
+    
+}
+
+.casosPro{
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.navPro li a:hover {
+    color: #950101;
+    font-weight: bolder;
+}
+
+
+/* ESTILOS DE NAME MISMATCH */
+/* ESTILOS DE NAME MISMATCH */
+/* ESTILOS DE NAME MISMATCH */
+/* ESTILOS DE NAME MISMATCH */
+
+.encabezadoNM{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tituloNM{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profileNM{
+    height: 120px;
+    margin-left: 10px;
+}
+
+.logoNM {
+    height: 80px;
+    margin-left: 200px;
+}
+
+.menuNM{
+    display: flex;
+    
+}
+
+.navNM{
+    height: 100px;
+    
+}
+
+.menuNM li a{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.addingCases{
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+}
+
+.boton{
+    width: 200px;
+}
+
+.casosNM li:hover {
+    color: #950101;
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+
+}
+
+.centerField{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.casosNM li{
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.casosNM{
+    padding: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+.navNM li a:hover {
+    color: #950101;
+    font-weight: bolder;
+}
+
+
+/* ESTILOS DE CORRESPONDENCES */
+/* ESTILOS DE CORRESPONDENCES */
+/* ESTILOS DE CORRESPONDENCES */
+/* ESTILOS DE CORRESPONDENCES */
+
+.encabezadoPC{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.tituloPC{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profilePC{
+    height: 120px;
+    margin-left: 10px;
+}
+
+.logoPC {
+    height: 80px;
+    margin-left: 200px;
+}
+
+.navPC{
+    height: 100px;
+}
+
+.menuPC{
+    display: flex;
+}
+
+.menuPC li a{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menuPC li a:hover {
+    color: #950101;
+    font-weight: bolder;
+}
+
+.savePC li:hover {
+    color: #950101;
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+
+}
+
+
+.savePC li{
+    list-style: none;
+    margin: 10px;
+    
+}
+
+.savePC{
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+
+
+/* ESTILOS DE Results Websites */
+/* ESTILOS DE Results Websites */
+/* ESTILOS DE Results Websites */
+/* ESTILOS DE Results Websites */
+
+.encabezadoRW{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.tituloRW{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profileRW{
+    height: 120px;
+    margin-left: 10px;
+}
+
+.logoRW {
+    height: 80px;
+    margin-left: 200px;
+}
+
+.navRW{
+    height: 100px;
+}
+
+.menuRW{
+    display: flex;
+}
+
+.menuRW li a{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menuRW li a:hover {
+    color: #950101;
+    font-weight: bolder;
+}
+
+.ElinksRW li:hover {
+    color: #950101;
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+
+}
+
+
+.ElinksRW li{
+    list-style: none;
+    margin: 15px;
+    font-size: 20px;
+    color: black;
+    
+}
+
+.ElinksRW{
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+/* ESTILOS DE Internal Tools */
+/* ESTILOS DE Internal Tools */
+/* ESTILOS DE Internal Tools */
+/* ESTILOS DE Internal Tools */
+
+.encabezadoIT{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.tituloIT{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profileIT{
+    height: 120px;
+    margin-left: 10px;
+}
+
+.logoIT {
+    height: 80px;
+    margin-left: 200px;
+}
+
+.navIT{
+    height: 100px;
+}
+
+.menuIT{
+    display: flex;
+}
+
+.menuIT li a{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menuIT li a:hover {
+    color: #950101;
+    font-weight: bolder;
+}
+
+.ElinksIT div:hover {
+    color: #950101;
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+
+}
+
+
+.ElinksIT div{
+    list-style: none;
+    margin: 15px;
+    font-size: 20px;
+    color: black;
+    
+}
+
+.ElinksIT{
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
